@@ -1,0 +1,50 @@
+:root{
+    --dark-color:#281900 ;
+    --light-color:#fafd56;
+    --mid-color: #7a7672; 
+    --white-color: #ffff;
+
+}
+
+body{
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 400;
+    font-style: italic;
+}
+.first-bg{
+
+    background-color: #281900;
+    color: var(--white-color);
+}
+
+.second-bg{
+    background-color: #fafd56;
+    color: var(--dark-color);
+}
+.btn{
+    background-color: #fafd56;
+    color: var(--dark-color);
+}
+
+.navbar a{
+    color: var(--white-color);
+}
+
+.navbar a:hover{
+    color: var(--light-color);
+}
+
+.btn-warning{
+    background-color: #fafd56;
+    color: var(--dark-color);
+}
+
+.card{
+    box-shadow: .5em .3em 1em #281900;
+}
+
+
+
+
+
+
